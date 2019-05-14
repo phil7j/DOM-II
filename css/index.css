@@ -174,12 +174,16 @@ img {
     margin: 0 5%;
   }
 }
+.toggle-bg {
+  background: lightblue;
+}
 .main-navigation {
   width: 100%;
   height: 90px;
   background: #FFFFFF;
   border-bottom: 2px dashed #C0C0C0;
   position: fixed;
+  transition: height 400ms;
 }
 .main-navigation .nav-container {
   height: 100%;
